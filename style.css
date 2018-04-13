@@ -1,0 +1,11 @@
+div#staff-list div.staff {
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: 1fr 8fr; }
+  div#staff-list div.staff img {
+    width: 150px;
+    margin-right: 25px; }
+  div#staff-list div.staff div {
+    vertical-align: top; }
+
+/*# sourceMappingURL=style.css.map */

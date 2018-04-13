@@ -1,0 +1,14 @@
+div#staff-list {
+    div.staff {
+        margin-bottom: 25px;
+        display: grid;
+        grid-template-columns: 1fr 8fr;
+        img {
+            width: 150px;
+            margin-right: 25px;
+        } 
+        div {
+            vertical-align: top;
+        }
+    }
+}
