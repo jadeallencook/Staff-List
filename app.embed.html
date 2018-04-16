@@ -2,7 +2,7 @@
     div#staff-list div.staff {
         margin-bottom: 25px;
         display: grid;
-        grid-template-columns: 1fr 8fr;
+        grid-template-columns: 2fr 6fr;
     }
 
     div#staff-list div.staff img {
@@ -12,6 +12,7 @@
 
     div#staff-list div.staff div {
         vertical-align: top;
+        padding-left: 25px;
     }
 </style>
 
@@ -24,7 +25,7 @@
             request.onload = function () {
                 res(JSON.parse(this.response));
             }
-            request.open('get', 'staff.json');
+            request.open('get', 'https://cdn.deseretnews.com/media/misc/interactive/2018-spring-new-seventy/2018-spring-new-seventy.json');
             request.send();
         }).then(function (staff) {
             var container = document.getElementById('staff-list');

@@ -2,13 +2,14 @@ div#staff-list {
     div.staff {
         margin-bottom: 25px;
         display: grid;
-        grid-template-columns: 1fr 8fr;
+        grid-template-columns: 2fr 6fr;
         img {
             width: 150px;
             margin-right: 25px;
         } 
         div {
             vertical-align: top;
+            padding-left: 25px;
         }
     }
 }
